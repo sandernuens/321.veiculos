@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic, sans-serif;
+    
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+.baracima{
+    margin: auto;
+    width: 100%;
+    
+}
+
+.baracimadentro{
+    border: solid 1px #40089b;
+    height: 75px;
+    background-image: linear-gradient(to right, #2c0769, #8600a1);
+    width: 100%;
+    
+   
+    
+}
+
+h1{
+
+    font-size: 3rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: aliceblue;
+}
+
+
+
+
+
+
+.navegacao{
+
+    position: absolute;
+    height: 100px;
+    background:#3c0272;
+    width: 65px;
+    box-shadow: 0 0 25px #3f0000;
+    font-size: 1.5rem;
+    overflow-x: hidden;
+    transition: 0.5s;
+    min-height: 600px;
+    float: right;
+    top: 76px;
+    border-radius: 3px;
+}
+
+.navegacao:hover{
+    width:200px;
+}
+
+.navegacao ul{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 40px;
+
+}
+
+.navegacao ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.navegacao ul li a{
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.navegacao ul li a .icon{
+
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+.navegacao ul li a .icon ion-icon{
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 1;
+
+}
+
+.navegacao ul li a .title{
+    position: relative;
+    display: block;
+    padding-left: 5px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+
+
+.list:hover 
+
+{ background-color: #c0c0c0; 
+
+transition: 0.3s;
+
+opacity: 0.8;
+
+}

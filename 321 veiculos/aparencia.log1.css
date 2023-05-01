@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic, sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+
+.login{
+
+	width: 800px;
+	margin: 7rem auto;	
+	
+
+}
+
+h1{
+
+	font-size: 5rem;
+	padding-left: 5rem;
+	padding-top: 9rem;
+    font-style: italic;
+	padding-bottom: 4rem;;
+}
+
+
+.form{
+	 
+	margin-left: 180px; 
+	height: 520px; 
+	color: white;
+	width: 423px;
+	border-radius:8px;
+	background-image: linear-gradient(to right, #370c69, #8d06db);
+}
+
+
+
+label, input[type="text"], input[type="password"], input[type="submit"]{
+
+	font-size: 1.5rem;
+	margin-left: 5.0rem;
+	padding-top: 2rem;
+	
+}
+
+input[type="text"], input[type="password"]{
+
+	width: 300px;
+	padding: 1.0rem;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	
+
+}
+
+input[type="submit"]{
+
+	color: white;
+	width: 325px;
+	padding: 1.0rem;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	border-radius: 8px;
+	background-image: linear-gradient(to right, #910de9, #3c0661);
+	border: 0;
+	border: 1px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+
+}
+
+#btn_entrar:hover 
+
+{ background-color: #000000; 
+
+transition: 0.3s;
+
+opacity: 0.5;
+
+}
